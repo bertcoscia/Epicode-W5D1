@@ -179,12 +179,18 @@ footer a {
     color: fuchsia;
 }
 
+#logoHTML {
+    border: solid 4px #01a0c6;
+    outline: solid 4px #a12572;
+}
+
 /* versione mobile fino a 575px */
 
 @media screen and (max-width: 575px) {
 
     body {
         line-height: 2.5rem;
+        font-size: 1.6rem;
     }
 
     header li {
@@ -198,10 +204,48 @@ footer a {
     }
 
     #logoHTML {
-        border: solid 4px #01a0c6;
-        outline: solid 4px #a12572;
         width: 60px;
     }
 
+    section h2 {
+        background-color: #a3a3a3;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+
+    aside h2 {
+        font-size: 3rem;
+    }
+}
+
+/* versione medium 768px ~ 991px */
+
+@media screen and (min-width: 768px) {
+
+    body {
+        font-size: 2rem;
+        line-height: 1.5em;
+    }
+
+    h1 {
+        font-size: 7.5rem;
+    }
+    header li {
+        display: inline-block;
+        padding: 0.5em;
+    }
+
+    #logoHTML {
+        width: 60px;
+    }
+
+    table {
+        margin-inline: auto;
+    }
+}
+
+/* versione large da 992px */
+
+@media screen and (min-width: 992px) {
 
 }
