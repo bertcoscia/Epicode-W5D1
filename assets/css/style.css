@@ -293,4 +293,49 @@ footer a {
 
 @media screen and (min-width: 992px) {
 
+    body {
+        font-size: 1.5rem;
+        line-height: 2;
+    }
+
+    header {
+        height: 1em;
+    }
+
+    header div, header img, header p, header ul, header li {
+        display: inline-block;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    #author {
+        font-size: 1.4rem;
+    }
+
+    article h2 {
+        font-size: 2rem;
+        margin-bottom: 1em;
+    }
+
+    table {
+        width: 70%;
+    }
+
+    iframe {
+        width: 40%;
+        display: inline-block;
+    }
+    
+    section {
+        width: 40%;
+        display: inline-block;
+        border-radius: 20px;
+    }
+
+    aside div {
+        display: inline-block;
+        width: 33%;
+    }
 }
