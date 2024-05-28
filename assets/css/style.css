@@ -209,6 +209,7 @@ footer a {
 
     section h2 {
         background-color: #a3a3a3;
+        text-transform: capitalize;
         padding-top: 0.5em;
         padding-bottom: 0.5em;
     }
@@ -258,6 +259,7 @@ footer a {
 
     section h2 {
         background-color: #a3a3a3;
+        text-transform: capitalize;
     }
 
     iframe {
@@ -291,7 +293,7 @@ footer a {
 
 /* versione large da 992px */
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
 
     body {
         font-size: 1.5rem;
@@ -299,11 +301,12 @@ footer a {
     }
 
     header {
-        height: 1em;
     }
 
-    header div, header img, header p, header ul, header li {
+    header div img, header div p, header div, header nav {
         display: inline-block;
+        font-weight: normal;
+        vertical-align: middle;
     }
 
     h1 {
@@ -324,18 +327,28 @@ footer a {
     }
 
     iframe {
-        width: 40%;
+        width: 50%;
         display: inline-block;
+        vertical-align: bottom;
+        margin-left: -2px;
     }
     
     section {
-        width: 40%;
+        width: 50%;
         display: inline-block;
         border-radius: 20px;
+        vertical-align: bottom;
+        height: 200px;
+        margin-left: -2px;
     }
 
     aside div {
         display: inline-block;
         width: 33%;
+    }
+
+    section h2 {
+        background-color: #a3a3a3;
+        text-transform: capitalize;
     }
 }
